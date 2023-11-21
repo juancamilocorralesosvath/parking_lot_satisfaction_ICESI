@@ -1,16 +1,15 @@
 install.packages("ggplot2") 
 library(ggplot2)
-
 subset_data <- subset(survey_data_final, tolower(trimws(jornada)) == "mañana" & tolower(trimws(`encuentra parqueadero`)) == "si")
 subset_dataOpposite <- subset(survey_data_final, tolower(trimws(jornada)) == "mañana" & tolower(trimws(`encuentra parqueadero`)) == "no")
 
 num_filas <- nrow(subset_data)
 str(num_filas)
-#s
+#save
 opuesto <- nrow(subset_dataOpposite)
 
 datos1 <- data.frame(
-  categorias = c("Encuentra parqueadero y es la jornada de la mañana", "No encuentra parqueadero y es la jornada de la mañana"),
+  categorias = c("Encuentra parqueadero dado que es la jornada de la mañana", "No encuentra parqueadero dado es la jornada de la mañana"),
   valores = c(num_filas, opuesto)
 )
 
@@ -28,8 +27,18 @@ subset_dataOpposite <- subset(survey_data_final, tolower(trimws(jornada)) == "ta
 num_filas <- nrow(subset_data)
 opuesto <- nrow(subset_dataOpposite)
 
+num_mañana <- nrow(subset(survey_data_final, tolower(trimws(jornada)) == "mañana"))/99
+print(paste(num_mañana," es la probabilidad de llegar al aprqueadero por la tarde"))
+
+num_tarde <- nrow(subset(survey_data_final, tolower(trimws(jornada)) == "tarde"))/99
+print(paste(num_tarde," es la probabilidad de llegar al aprqueadero por la tarde"))
+
+
+prob_condicional_mañana <- (num_filas/99)/num_mañana
+prob_condicional_tarde <- (opuesto/99)/num_tarde
+
 datos2 <- data.frame(
-  categorias = c("No encuentra parqueadero y es la jornada de la mañana", "No encuentra parqueadero y es la jornada de la tarde"),
+  categorias = c("No encuentra parqueadero dado que es la jornada de la mañana", "No encuentra parqueadero dado es la jornada de la tarde"),
   valores = c(num_filas, opuesto)
 )
 
@@ -42,3 +51,4 @@ ggplot(datos2, aes(x = categorias, y = valores)) +
        y = "Cantidad de Personas") +
   theme_minimal()
 theme(plot.title = element_text(size = 10, hjust = 0.5))
+
