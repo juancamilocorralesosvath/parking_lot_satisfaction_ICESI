@@ -6,7 +6,7 @@ subset_dataOpposite <- subset(survey_data_final, tolower(trimws(jornada)) == "ma
 
 num_filas <- nrow(subset_data)
 str(num_filas)
-
+#s
 opuesto <- nrow(subset_dataOpposite)
 
 datos1 <- data.frame(
