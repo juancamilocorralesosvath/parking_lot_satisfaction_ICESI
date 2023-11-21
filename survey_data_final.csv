@@ -1,0 +1,100 @@
+﻿satisfacción disponibilidad espacios,facilidad acceso,medio transporte,utiliza su carro y lo parquea,minutos para encontrar parqueadero,día de la semana,jornada,hora,encuentra parqueadero
+4,4,carro,Siempre,5,Lunes,Mañana,6:50:00 AM,Si
+5,5,carro,Regularmente,1,Martes,Mañana,6:20:00 AM,Si
+2,3,carro,Siempre,15,"Martes, Miércoles, Jueves, Viernes",Tarde,2:00:00 PM,Si
+4,3,pie,Nunca,0,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Mañana,8:00:00 AM,No
+4,3,carro,Regularmente,10,"Lunes, Martes, Miércoles, Viernes",Mañana,7:00:00 AM,No
+3,2,moto,Siempre,1,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,7:00:00 AM,No
+3,3,carro,Regularmente,10,"Lunes, Jueves",Mañana,9:00:00 AM,No
+3,3,mio,Nunca,0,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Mañana,10:00:00 AM,Si
+3,4,mio,Nunca,0,Sábado,Mañana,2:00:00 AM,No
+4,4,bicicleta,Siempre,10,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Mañana,7:00:00 AM,No
+2,2,carro,Siempre,15,"Martes, Jueves, Viernes",Mañana,7:00:00 AM,No
+5,4,moto,Siempre,3,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,10:50:00 AM,No
+2,3,carro,Siempre,10,"Lunes, Martes, Jueves, Viernes",Mañana,9:00:00 AM,No
+3,3,carro,Regularmente,5,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,6:50:00 AM,No
+4,4,carro,Siempre,5,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Mañana,9:00:00 AM,No
+3,2,carro,Siempre,15,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,8:30:00 AM,No
+4,3,carro,Siempre,5,"Lunes, Miércoles",Tarde,12:00:00 PM,Si
+3,2,moto,Muy raro,15,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,6:30:00 AM,No
+5,5,carro,Siempre,1,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,8:00:00 AM,No
+5,4,carro,Siempre,9,"Lunes, Miércoles, Viernes",Mañana,8:00:00 AM,Si
+3,3,carro,Nunca,0,Miércoles,Mañana,10:00:00 PM,No
+4,5,moto,Siempre,3,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Mañana,8:50:00 AM,No
+5,5,carro,Algunas veces,10,"Miércoles, Viernes",Mañana,4:20:00 AM,Si
+3,3,mio,Muy raro,5,"Lunes, Martes",Mañana,4:00:00 AM,No
+4,3,carro,Regularmente,15,"Martes, Miércoles, Jueves",Mañana,7:00:00 AM,No
+4,4,bicicleta,Siempre,10,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Mañana,6:00:00 AM,No
+3,3,mio,Nunca,0,Viernes,Mañana,9:00:00 AM,Si
+3,4,moto,Algunas veces,7,Miércoles,Mañana,7:00:00 AM,No
+4,4,carro,Siempre,5,Lunes,Tarde,4:00:00 PM,Si
+3,3,bicicleta,Siempre,2,Martes,Mañana,10:00:00 AM,No
+4,4,carro,Nunca,0,Viernes,Mañana,7:00:00 AM,Si
+3,2,carro,Algunas veces,6,"Lunes, Miércoles, Viernes",Mañana,6:50:00 AM,No
+5,4,carro,Siempre,5,Martes,Noche,6:30:00 PM,No
+4,3,carro,Regularmente,8,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Mañana,9:00:00 AM,No
+3,2,moto,Regularmente,5,"Miércoles, Viernes",Mañana,6:50:00 AM,No
+4,4,carro,Regularmente,1,"Lunes, Martes, Jueves",Tarde,2:00:00 PM,Si
+3,4,moto,Siempre,3,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,7:00:00 AM,No
+3,5,bicicleta,Algunas veces,5,"Martes, Jueves, Viernes",Mañana,7:00:00 AM,No
+5,5,carro,Muy raro,12,Viernes,Mañana,10:00:00 AM,No
+5,3,carro,Siempre,2,"Lunes, Miércoles, Jueves, Viernes, Sábado",Tarde,3:00:00 PM,Si
+5,5,moto,Siempre,5,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Mañana,9:00:00 AM,No
+3,3,bicicleta,Regularmente,10,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Mañana,8:30:00 AM,No
+5,5,carro,Siempre,5,"Lunes, Martes, Viernes",Mañana,6:30:00 AM,No
+5,5,carro,Siempre,6,"Martes, Jueves, Viernes",Tarde,4:00:00 PM,Si
+2,3,moto,Algunas veces,8,"Martes, Jueves",Mañana,10:00:00 AM,No
+3,3,moto,Siempre,10,"Miércoles, Jueves, Sábado",Mañana,7:30:00 AM,No
+4,4,carro,Siempre,14,"Viernes, Sábado",Mañana,7:00:00 AM,No
+3,2,carro,Muy raro,15,"Martes, Miércoles, Jueves, Viernes",Noche,6:00:00 PM,No
+2,1,carro,Algunas veces,8,"Miércoles, Jueves",Tarde,12:00:00 PM,Si
+3,1,carro,Algunas veces,5,Sábado,Mañana,7:00:00 AM,No
+3,2,moto,Regularmente,15,"Lunes, Miércoles, Viernes",Mañana,6:45:00 AM,No
+3,3,carro,Siempre,10,"Miércoles, Viernes",Mañana,8:30:00 AM,No
+3,5,carro,Algunas veces,5,"Miércoles, Jueves",Tarde,2:00:00 PM,Si
+3,3,moto,Algunas veces,5,"Martes, Miércoles",Mañana,7:30:00 AM,No
+4,2,moto,Muy raro,5,"Martes, Jueves, Viernes",Mañana,10:00:00 AM,No
+5,5,moto,Siempre,2,"Martes, Miércoles, Jueves",Mañana,10:00:00 AM,No
+4,4,bicicleta,Nunca,0,"Martes, Miércoles, Jueves, Viernes",Mañana,10:00:00 AM,No
+3,4,mio,Regularmente,5,"Miércoles, Jueves, Viernes",Mañana,10:00:00 AM,Si
+3,5,moto,Siempre,2,"Lunes, Martes, Jueves, Viernes",Mañana,6:30:00 AM,No
+4,4,moto,Siempre,5,"Martes, Miércoles, Jueves, Viernes",Mañana,9:45:00 AM,Si
+5,4,bicicleta,Siempre,6,"Martes, Viernes, Sábado",Mañana,8:00:00 AM,No
+3,2,bicicleta,Algunas veces,15,"Martes, Miércoles",Mañana,7:00:00 AM,Si
+4,4,carro,Regularmente,10,"Miércoles, Jueves, Viernes",Mañana,8:30:00 AM,Si
+5,3,moto,Regularmente,10,"Miércoles, Viernes, Sábado",Tarde,1:00:00 PM,Si
+3,4,moto,Regularmente,6,"Miércoles, Jueves",Mañana,10:00:00 AM,Si
+3,1,carro,Regularmente,8,"Lunes, Martes, Miércoles",Mañana,8:00:00 AM,Si
+3,1,carro,Algunas veces,8,"Lunes, Martes",Mañana,2:00:00 PM,Si
+3,1,carro,Siempre,15,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Tarde,4:00:00 PM,No
+2,3,carro,Regularmente,5,"Martes, Miércoles, Jueves, Viernes",Mañana,7:00:00 AM,No
+4,2,carro,Siempre,3,"Lunes, Martes, Jueves, Viernes",Mañana,7:15:00 AM,No
+4,4,carro,Siempre,4,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,7:00:00 AM,No
+5,5,carro,Siempre,2,"Lunes, Martes, Miércoles, Jueves",Mañana,9:00:00 AM,No
+5,5,moto,Siempre,5,"Martes, Miércoles, Jueves, Viernes",Mañana,7:00:00 AM,No
+4,5,carro,Regularmente,1,"Lunes, Miércoles, Jueves, Viernes",Mañana,9:00:00 AM,No
+4,3,moto,Siempre,4,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,10:00:00 AM,No
+3,3,carro,Regularmente,5,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,7:30:00 AM,Si
+5,5,carro,Regularmente,3,"Lunes, Jueves, Viernes",Mañana,11:00:00 AM,No
+4,3,carro,Siempre,3,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,8:30:00 AM,Si
+4,4,carro,Algunas veces,2,"Lunes, Martes, Jueves, Viernes",Mañana,9:00:00 AM,No
+5,5,carro,Siempre,1,"Lunes, Martes, Miércoles, Jueves",Mañana,7:00:00 AM,No
+3,3,moto,Siempre,5,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,7:00:00 AM,Si
+5,4,carro,Regularmente,3,"Lunes, Martes, Miércoles, Viernes",Mañana,9:00:00 AM,No
+5,3,carro,Regularmente,10,"Miércoles, Viernes, Sábado",Tarde,1:00:00 PM,No
+3,3,pie,Regularmente,5,Viernes,Mañana,7:00:00 AM,No
+3,3,carro,Regularmente,5,Viernes,Mañana,7:00:00 AM,No
+4,4,carro,Regularmente,6,"Lunes, Viernes",Mañana,7:00:00 AM,No
+5,5,carro,Regularmente,2,"Lunes, Martes, Jueves, Viernes",Mañana,7:00:00 AM,No
+3,3,mio,Regularmente,4,"Lunes, Miércoles, Jueves, Viernes",Mañana,9:00:00 AM,Si
+3,1,bicicleta,Siempre,15,"Lunes, Martes, Miércoles, Jueves, Viernes, Sábado",Tarde,4:00:00 PM,No
+3,3,bicicleta,Nunca,1,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,7:00:00 AM,No
+3,3,moto,Regularmente,3,"Lunes, Martes, Miércoles, Jueves, Viernes",Mañana,8:00:00 AM,No
+3,3,carro,Regularmente,4,"Lunes, Miércoles, Jueves, Viernes",Mañana,9:00:00 AM,Si
+3,3,carro,Regularmente,4,"Lunes, Martes, Jueves, Viernes, Sábado",Mañana,7:00:00 AM,Si
+3,3,carro,Regularmente,5,"Lunes, Martes, Miércoles, Viernes, Sábado",Mañana,7:00:00 AM,Si
+3,3,carro,Regularmente,6,"Lunes, Martes, Miércoles, Viernes, Sábado",Mañana,7:00:00 AM,Si
+3,3,carro,Regularmente,6,"Lunes, Martes, Miércoles, Jueves, Sábado",Mañana,7:00:00 AM,Si
+4,4,carro,Regularmente,7,"Lunes, Miércoles, Jueves, Viernes",Mañana,7:00:00 AM,No
+3,3,carro,Regularmente,8,"Lunes, Martes, Jueves, Viernes",Mañana,7:00:00 AM,No
+5,5,carro,Regularmente,2,"Lunes, Martes, Jueves, Viernes",Mañana,7:00:00 AM,No

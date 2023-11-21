@@ -1,8 +1,8 @@
-install.packages("ggplot2") # Si no tienes instalada ggplot2
+install.packages("ggplot2") 
 library(ggplot2)
 
-subset_data <- subset(survey_data, tolower(trimws(jornada)) == "mañana" & `no encontró parqueadero` > 0)
-subset_dataOpposite <- subset(survey_data, tolower(trimws(jornada)) == "mañana" & `no encontró parqueadero` == 0)
+subset_data <- subset(survey_data_final, tolower(trimws(jornada)) == "mañana" & tolower(trimws(`encuentra parqueadero`)) == "si")
+subset_dataOpposite <- subset(survey_data_final, tolower(trimws(jornada)) == "mañana" & tolower(trimws(`encuentra parqueadero`)) == "no")
 
 num_filas <- nrow(subset_data)
 str(num_filas)
@@ -11,7 +11,7 @@ opuesto <- nrow(subset_dataOpposite)
 
 datos1 <- data.frame(
   categorias = c("Encuentra parqueadero y es la jornada de la mañana", "No encuentra parqueadero y es la jornada de la mañana"),
-  valores = c(opuesto, num_filas)
+  valores = c(num_filas, opuesto)
 )
 
 ggplot(datos1, aes(x = categorias, y = valores)) +
@@ -23,8 +23,8 @@ ggplot(datos1, aes(x = categorias, y = valores)) +
   theme_minimal()
 theme(plot.title = element_text(size = 10, hjust = 0.5))
 
-subset_data <- subset(survey_data, tolower(trimws(jornada)) == "mañana" & `no encontró parqueadero` > 0)
-subset_dataOpposite <- subset(survey_data, tolower(trimws(jornada)) == "tarde" & `no encontró parqueadero` > 0)
+subset_data <- subset(survey_data_final, tolower(trimws(jornada)) == "mañana" & tolower(trimws(`encuentra parqueadero`)) == "no")
+subset_dataOpposite <- subset(survey_data_final, tolower(trimws(jornada)) == "tarde" & tolower(trimws(`encuentra parqueadero`)) == "no")
 num_filas <- nrow(subset_data)
 opuesto <- nrow(subset_dataOpposite)
 
